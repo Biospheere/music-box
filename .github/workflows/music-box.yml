@@ -1,7 +1,7 @@
 name: music-box
 on:
   schedule:
-    - cron: '*/30 * * * *'  # 30 minutes
+    - cron: '0 0 * * *'  # midnight
   push:
     branches: master
 jobs:
